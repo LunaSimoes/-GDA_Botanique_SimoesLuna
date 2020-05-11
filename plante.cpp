@@ -21,4 +21,9 @@
     void tulipe::affiche(){
     }
 
+
+
+    
+/* Plante Carnivore*/
+
 #endif
