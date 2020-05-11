@@ -3,7 +3,28 @@
 #include "carnivore.h"
 #include "player.h"
 
+
+/* Timer*/
+/* quand le timer arrive à 0 on peut à nouveau nourrir et mettre de l'engrais 1 fois. Le timer recommence.*/
+
+void timer(int minutes)
+{
+    for(minutes==0)
+    {
+            break;
+        }
+
+        system("cls");
+        cout<<h<<":"<<m<<":"<<s--;
+    }
+
 int main(){
+
+    int minutes;
+    cout<<"Minutes: "; cin>> minutes;
+    timer(minutes);
+    for (int i = 100; ; i = i + 50)
+
     
     tulipe * tulipe = new tulipe("Tulipe");
     tulipe->affiche();

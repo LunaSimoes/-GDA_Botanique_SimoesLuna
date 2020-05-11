@@ -7,7 +7,7 @@
 class Player {
     private:
     
-    int _fatigue;
+    int _fatigue(int heures);
     int _portemonnaie;
     int _engrais;
     std::string _playerName;

@@ -16,7 +16,7 @@ void Player::dormir(int heures){
 }
 
 void Player::acheterEngrais(int argent){
-    _portemonnaie-=argent*10;
+    _portemonnaie-=argent-10;
     _engrais+=1;
 }
 
